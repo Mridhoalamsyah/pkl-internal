@@ -15,23 +15,17 @@
         <!--navigation-->
         <ul class="metismenu" id="sidenav">
           <li>
-            <a href="javascript:;" class="has-arrow">
+            <a href="{{url('/admin')}}">
               <div class="parent-icon"><i class="material-icons-outlined">home</i>
               </div>
               <div class="menu-title">Dashboard</div>
             </a>
-            <ul>
-              <li><a href="index.html"><i class="material-icons-outlined">arrow_right</i>Analysis</a>
-              </li>
-              <li><a href="index2.html"><i class="material-icons-outlined">arrow_right</i>eCommerce</a>
-              </li>
-            </ul>
           </li>
           <li>
-            <a href="javascript:;" class="has-arrow">
+            <a href="{{url('/admin/user')}}">
               <div class="parent-icon"><i class="material-icons-outlined">widgets</i>
               </div>
-              <div class="menu-title">Widgets</div>
+              <div class="menu-title">User managerment</div>
             </a>
             <ul>
               <li><a href="widgets-data.html"><i class="material-icons-outlined">arrow_right</i>Data</a>

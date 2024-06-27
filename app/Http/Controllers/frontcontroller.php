@@ -46,4 +46,5 @@ class FrontController extends Controller
     {
         return view('about');
     }
+    
 }
